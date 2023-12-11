@@ -1,0 +1,116 @@
+@media (max-width: 1380px){
+    .cabecalho .logo{
+        max-width: 220px;
+        padding: 10px 0px;
+    }  
+    
+    body{
+        overflow-y: hidden;
+    }
+
+    .selecao-de-personagens{
+        gap: 12px;
+    }
+
+    .selecao-de-personagens .lista-de-personagens{
+        gap: 15px;
+    }
+
+    .lista-de-personagens .personagem.selecionado{
+        box-shadow: 0px 0px 15px 3px #0271f7;
+    }
+    
+    .personagens .lista-de-personagens li{
+        width: 110px;
+        height: 160px;
+    }
+
+    .personagem-selecionado .personagem-grande{
+        width: 325px;
+        height: 325px;
+    }
+
+}
+
+@media(max-width: 1220px){
+    .selecao-de-personagens{
+        flex-direction: column-reverse;
+        max-width: 430px;
+        margin: 0 auto;
+    }
+
+    body{
+        overflow: scroll;
+    }
+
+    .selecao-de-personagens .personagens{
+        margin-top: 37px;
+    }
+
+    .selecao-de-personagens .personagens .titulo{
+        font-size: 15px;
+    }
+
+    .selecao-de-personagens .lista-de-personagens{
+        gap: 18px;
+    }
+
+    .selecao-de-personagens .personagem img{
+        width: 90px;
+    }
+
+    .personagens .lista-de-personagens li{
+        width: 90px;
+        height: 160px;
+    }
+
+    .personagem-selecionado .personagem-grande{
+        width: 350px;
+        height: 350px;
+    }
+
+    .personagem-selecionado .descricao-personagem{
+        width: 80%;
+        font-size: 16px;
+        margin: 20px auto;
+    }
+}
+
+/* @media(max-width: 1220px){
+    .selecao-de-personagens{
+        flex-direction: column-reverse;
+        max-width: 430px;
+        margin: 0 auto;
+    }
+
+    body{
+        overflow: scroll;
+    }
+
+    .selecao-de-personagens .personagens{
+        margin-top: 37px;
+    }
+
+    .selecao-de-personagens .personagens .titulo{
+        font-size: 15px;
+    }
+
+    .selecao-de-personagens .lista-de-personagens{
+        gap: 9px;
+    }
+
+    .selecao-de-personagens .personagem img{
+        width: 80px;
+    }
+
+    .personagem-selecionado .personagem-grande{
+        width: 350px;
+        height: 350px;
+    }
+
+    .personagem-selecionado .descricao-personagem{
+        width: 80%;
+        font-size: 16px;
+        margin: 20px auto;
+    }
+} */
